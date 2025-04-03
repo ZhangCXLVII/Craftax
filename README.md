@@ -1,5 +1,5 @@
 
-# Craftax Baselines
+# Craftax
 
 This repository contains the code for the machine learning course project, made by group 40. Thanks to original code at [Craftex_Baselines](https://github.com/MichaelTMatthews/Craftax_Baselines), our code is modified from it.
 
@@ -23,10 +23,10 @@ python ppo.py
 
 # Visualisation
 
-We have released our trained model weights and configuration files at [your download link]. Please download the corresponding folder and use the following command for visualization:
+We have released our trained model weights and configuration files at [huggingface](https://huggingface.co/Kupper/craftax_policy/tree/main). Please download the corresponding folder and use the following command for visualization:
 
 ```commandline
-python view_ppo_agent.py --path <path to the downloaded folder, e.g., trans2 or mam2>
+python view_ppo_agent.py --path <path to the downloaded folder, e.g., /home/username/Craftax/mam2/files>
 ```
 
 
