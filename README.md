@@ -1,7 +1,7 @@
 
 # Craftax
 
-This repository contains the code for the machine learning course project, made by group 40. Thanks to original code at [Craftex_Baselines](https://github.com/MichaelTMatthews/Craftax_Baselines), our code is modified from it.
+This repository contains the code for the machine learning course project, made by group 40. Thanks to original code at [Craftex_Baselines](https://github.com/MichaelTMatthews/Craftax_Baselines) and [mamba-minimal](https://github.com/johnma2006/mamba-minimal), our code is modified from them.
 
 # Installation
 ```commandline
