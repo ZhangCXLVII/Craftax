@@ -1,11 +1,7 @@
-<p align="center">
- <img width="80%" src="https://raw.githubusercontent.com/MichaelTMatthews/Craftax_Baselines/main/images/logo.png" />
-</p>
 
 # Craftax Baselines
 
-This repository contains the code for running the baselines from the [Craftax paper](https://arxiv.org/abs/2402.16801).
-For packaging reasons, this is separate to the [main repository](https://github.com/MichaelTMatthews/Craftax/).
+This repository contains the code for the machine learning course project, made by group 40. Thanks to original code base on [Craftex_Baselines]([https://github.com/MichaelTMatthews/Craftax_Baselines]), our code is modified from it.
 
 # Installation
 ```commandline
@@ -17,6 +13,8 @@ pre-commit install
 
 # Run Experiments
 
+To train a Transformer- or Mamba-based actor, please modify the corresponding comment in class ActorCritic inside models/actor-critic (around line 389).
+
 ### PPO
 ```commandline
 python ppo.py
@@ -24,4 +22,12 @@ python ppo.py
 
 
 # Visualisation
-You can save trained policies with the `--save_policy` flag.  These can then be viewed with the `view_ppo_agent` script (pass in the path up to the `files` directory).
+
+We have released our trained model weights and configuration files at [your download link]. Please download the corresponding folder and use the following command for visualization:
+
+```commandline
+python view_ppo_agent.py --path <path to the downloaded folder, e.g., trans2 or mam2>
+```
+
+
+If you train a policy from scratch, you can save trained policy with the `--save_policy` flag.  These can then be viewed with the `view_ppo_agent` script (pass in the path up to the `files` directory).
