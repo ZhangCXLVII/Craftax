@@ -1,12 +1,12 @@
 
 # Craftax Baselines
 
-This repository contains the code for the machine learning course project, made by group 40. Thanks to original code base on [Craftex_Baselines]([https://github.com/MichaelTMatthews/Craftax_Baselines]), our code is modified from it.
+This repository contains the code for the machine learning course project, made by group 40. Thanks to original code at [Craftex_Baselines](https://github.com/MichaelTMatthews/Craftax_Baselines), our code is modified from it.
 
 # Installation
 ```commandline
 git clone https://github.com/ZhangCXLVII/Craftax.git
-cd Craftax_Baselines
+cd Craftax
 pip install -r requirements.txt -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 pre-commit install
 ```
